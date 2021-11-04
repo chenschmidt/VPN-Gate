@@ -25,10 +25,9 @@ Moreover, the script allows to input countries with **any case** (`Italy`, `ital
 
 OpenVPN needs to be installed.
 
-Install Indicator: $ `sudo apt-get install gir1.2-appindicator3-0.1 gir1.2-notify-0.7 python-gobject`
-openvpn: $ `sudo apt-get install openvpn`
-python-requests: $ `sudo apt-get install python-requests`
-python-urwid 1.3+: $ `sudo apt-get install python-urwid`
-wmctrl: $ `sudo apt-get install wmctrl`
+- Install Indicator: $ `sudo apt-get install gir1.2-appindicator3-0.1 gir1.2-notify-0.7 python-gobject`
+- openvpn: $ `sudo apt-get install openvpn`
+- python-urwid 1.3+: $ `sudo apt-get install python-urwid-doc`
+- wmctrl: $ `sudo apt-get install wmctrl`
 
 The script should run on any Linux distribution with the Python [Requests](python-requests.org) module installed. The user running the script must be able to run `sudo` commands in order to start `openvpn`.
